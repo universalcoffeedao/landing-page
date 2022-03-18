@@ -1,0 +1,20 @@
+.portraait_wrapper {
+  padding: 80px 0;
+  background: #000000;
+  color: #fff;
+  .portraait_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h5 {
+      font-size: 20px;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    h6 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+}

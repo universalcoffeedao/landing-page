@@ -1,0 +1,237 @@
+.works_wrapper {
+  padding: 100px 0;
+  .works_title {
+    display: flex;
+    justify-content: center;
+    h6 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #030303;
+      font-size: 3.75rem;
+      line-height: 1.1;
+      font-weight: 600;
+      @media screen and (max-width: 599px) {
+        font-size: 2rem;
+      }
+    }
+  }
+  .works_first_div {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .works_first_div_wrapper {
+      .works_first_div_title {
+        display: flex;
+        align-items: center;
+        span {
+          display: flex;
+          width: 32px;
+          height: 32px;
+          margin-right: 8px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          background-color: #e6e6e6;
+          color: #737373;
+          font-size: 20px;
+          font-weight: 600;
+        }
+        margin-top: 0;
+        margin-bottom: 0.875rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: grey;
+        font-size: 20px;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_subtitle {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #030303;
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_description {
+        max-width: 20rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: #2b2b2b;
+        font-size: 20px;
+        line-height: 1.7;
+        font-weight: 400;
+      }
+    }
+    .work_image_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .work_image {
+        width: 250px;
+        height: 151px;
+        // margin-left: 8rem;
+        background-image: url(../../assets/cion.png);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    }
+
+    .work_position {
+      position: absolute;
+      top: 90%;
+      height: 150px;
+      @media screen and (max-width: 599px) {
+        display: none;
+      }
+    }
+  }
+  // two part
+  .works_two_div {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .works_first_div_wrapper {
+      .works_first_div_title {
+        display: flex;
+        align-items: center;
+        span {
+          display: flex;
+          width: 32px;
+          height: 32px;
+          margin-right: 8px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          background-color: #e6e6e6;
+          color: #737373;
+          font-size: 20px;
+          font-weight: 600;
+        }
+        margin-top: 0;
+        margin-bottom: 0.875rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: grey;
+        font-size: 20px;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_subtitle {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #030303;
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_description {
+        max-width: 20rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: #2b2b2b;
+        font-size: 20px;
+        line-height: 1.7;
+        font-weight: 400;
+      }
+    }
+    .work_image_wrapper {
+      display: flex;
+      // justify-content: center;
+      align-items: center;
+      .work_image {
+        width: 250px;
+        height: 231px;
+        // margin-left: 8rem;
+        background-image: url(../../assets/bank.png);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+      @media screen and (max-width: 599px) {
+        justify-content: center;
+      }
+    }
+
+    .work_position {
+      position: absolute;
+      top: 100%;
+      height: 120px;
+      @media screen and (max-width: 599px) {
+        display: none;
+      }
+    }
+  }
+  // 3nd part
+  .works_three_div {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    .works_first_div_wrapper {
+      .works_first_div_title {
+        display: flex;
+        align-items: center;
+        span {
+          display: flex;
+          width: 32px;
+          height: 32px;
+          margin-right: 8px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          background-color: #e6e6e6;
+          color: #737373;
+          font-size: 20px;
+          font-weight: 600;
+        }
+        margin-top: 0;
+        margin-bottom: 0.875rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: grey;
+        font-size: 20px;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_subtitle {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #030303;
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .works_first_div_description {
+        max-width: 20rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: #2b2b2b;
+        font-size: 20px;
+        line-height: 1.7;
+        font-weight: 400;
+      }
+    }
+    .work_image_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .work_image {
+        width: 225px;
+        height: 242px;
+        // margin-left: 8rem;
+        background-image: url(../../assets/coin_two.png);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    }
+
+    // .work_position {
+    //   position: absolute;
+    //   top: 70%;
+    //   height: 150px;
+    // }
+  }
+}
