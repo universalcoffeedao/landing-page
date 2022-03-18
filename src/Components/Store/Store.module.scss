@@ -1,0 +1,35 @@
+.store_wrapper {
+  padding: 100px 0;
+  background-color: #fdb750;
+
+  .store_content {
+    .store_left_content {
+      display: flex;
+      align-items: center;
+      h3 {
+        max-width: 40rem;
+        font-size: 3.75rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #030303;
+        line-height: 1.1;
+        font-weight: 600;
+        @media screen and (max-width: 599px) {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .store_right_content {
+      h6 {
+        max-width: 28rem;
+        font-size: 1.5rem;
+        color: #2b2b2b;
+        line-height: 1.7;
+        font-weight: 400;
+        @media screen and (max-width: 599px) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

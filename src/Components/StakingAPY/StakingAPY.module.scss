@@ -1,0 +1,114 @@
+.stackingAPY_wrapper {
+  padding: 100px 0;
+  background-color: #1b2530;
+  color: #fff;
+  .stackingAPY_title {
+    display: flex;
+    justify-content: center;
+    h5 {
+      font-size: 3.75rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+      font-weight: 600;
+      @media screen and (max-width: 599px) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .stackingAPY_content_wrapper {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    .stackingAPY_content {
+      .stackingAPY_left_content {
+        text-align: right;
+        @media screen and (max-width: 599px) {
+          text-align: center;
+        }
+        .stackingAPY_left_title {
+          color: #eeb657;
+          font-size: 3.75rem;
+          line-height: 1.1;
+          font-weight: 600;
+          margin-top: 0;
+          margin-bottom: 1rem;
+        }
+        .stackingAPY_subtitle {
+          // max-width: 20rem;
+          margin-top: 0;
+          margin-bottom: 1rem;
+          font-family: "Red Hat Text", sans-serif;
+        }
+        .stackingAPY_button {
+          padding: 1rem 1.75rem;
+          font-size: 1.125rem;
+          border-radius: 8rem;
+          background-color: #ffc768;
+          -webkit-transition: color 0.2s ease-in-out,
+            background-color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+          color: #000;
+          font-weight: 600;
+        }
+      }
+    }
+    .stackingAPY_center_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 599px) {
+        display: none;
+      }
+      .stackingAPY_center_content {
+        width: 1px;
+        height: 140px;
+        background-color: #374656;
+      }
+    }
+
+    .stackingAPY_right_content {
+      @media screen and (max-width: 599px) {
+        margin-top: 30px;
+      }
+      .stackingAPY_right_title {
+        margin-top: 0;
+        margin-bottom: 0.875rem;
+        font-size: 1.5rem;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .stackingAPY_subtitle {
+        color: #607286;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 20px;
+        font-family: "Red Hat Text", sans-serif;
+      }
+      .stackingAPY_sub_sub_title {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-family: "Red Hat Text", sans-serif;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .secondan_part {
+    height: 140px;
+    justify-content: center;
+    background-image: url(../../assets/three.png);
+    background-position: 50% 50%;
+    background-size: auto 234px;
+    background-repeat: no-repeat;
+
+    .secondan_part_title {
+      max-width: 32rem;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Red Hat Text", sans-serif;
+      @media screen and (max-width: 599px) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
