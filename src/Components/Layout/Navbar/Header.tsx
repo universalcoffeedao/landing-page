@@ -54,9 +54,12 @@ const Header: React.FC = () => {
                         {/* <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
                         </a> */}
-                        {/* <a href="" target="_blank">
+                        <a
+                          href="https://docs.universalcoffee.xyz/"
+                          target="_blank"
+                        >
                           FAQs
-                        </a> */}
+                        </a>
                       </li>
 
                       {/* <li>

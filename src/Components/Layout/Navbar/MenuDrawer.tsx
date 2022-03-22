@@ -61,8 +61,8 @@ export default function MenuDrawer() {
                 >
                   Whitepaper
                 </a> */}
-                {/* <a
-                  href=""
+                <a
+                  href="https://docs.universalcoffee.xyz/"
                   style={{
                     textDecoration: "none",
                     color: "#000000",
@@ -73,7 +73,7 @@ export default function MenuDrawer() {
                   target="_blank"
                 >
                   FAQs
-                </a> */}
+                </a>
               </li>
             }
           />
@@ -124,7 +124,7 @@ export default function MenuDrawer() {
                     <FaMedium />
                   </a>
                 </li> */}
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     style={{
@@ -137,7 +137,7 @@ export default function MenuDrawer() {
                   >
                     <FaReddit />
                   </a>
-                </li>
+                </li> */}
               </ul>
             }
           />
