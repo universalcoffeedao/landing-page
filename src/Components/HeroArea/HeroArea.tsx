@@ -14,8 +14,8 @@ const HeroArea: React.FC = () => {
                 Blockchain-Based Universal Coffee Rewards Program
               </Typography>
               <Typography variant="h6" color="inherit">
-                Universal coffee coin is the reward point for all coffee shops
-                in the world.
+                Universal Coffee Coin (UCC) is the reward point for all coffee
+                shops in the world.
               </Typography>
               <img
                 src={polygonImage}
@@ -24,17 +24,25 @@ const HeroArea: React.FC = () => {
               />
             </div>
             <a
-              href="TO_DO"
               target="_blank"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", display: "flex" }}
               className={styles.heroArea_right_wrapper}
             >
-              <Button
+              {/* <Button
                 variant="contained"
                 color="primary"
                 className={styles.heroArea_rightButton}
               >
                 Buy on Uniswap
+              </Button> */}
+              <Button
+                variant="contained"
+                color="primary"
+                className={styles.heroArea_rightButton}
+                href="https://discord.gg/7D22JUbqPW"
+                target="_blank"
+              >
+                Join Our Discord
               </Button>
             </a>
           </Grid>
@@ -43,7 +51,7 @@ const HeroArea: React.FC = () => {
             md={6}
             sm={12}
             xs={12}
-            className={styles.heroArea_right_wrapper}
+            className={styles.heroArea_joinDiscord_wrapper}
           >
             <a
               href="https://discord.gg/7D22JUbqPW"
@@ -53,7 +61,7 @@ const HeroArea: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                className={styles.heroArea_rightButton}
+                className={styles.heroArea_joinDiscord}
               >
                 Join Our Discord
               </Button>

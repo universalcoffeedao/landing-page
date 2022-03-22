@@ -10,7 +10,7 @@ const StakingAPY: React.FC = () => {
       <Container>
         <div className={styles.stackingAPY_title}>
           <Typography variant="h5" color="inherit">
-            Sustainable Staking APY
+            Run By DAO
           </Typography>
         </div>
         {/* <Grid
@@ -102,7 +102,8 @@ const StakingAPY: React.FC = () => {
             color="inherit"
             className={styles.secondan_part_title}
           >
-            UniversalCoffeeDAO will maintain 3-digit APY as long as possible.
+            DAO members can suggest policies and vote for proposals to get
+            rewards with UCC.
           </Typography>
         </Grid>
       </Container>

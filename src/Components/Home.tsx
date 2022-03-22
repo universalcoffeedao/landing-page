@@ -20,11 +20,11 @@ const Home: React.FC = () => {
         </section> */}
         {/* <section>
           <Introducing />
-        </section>
+        </section> */}
         <section>
           <StakingAPY />
         </section>
-        <section>
+        {/* <section>
           <Store />
         </section>
         <section>
