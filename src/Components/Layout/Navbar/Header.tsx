@@ -96,6 +96,16 @@ const Header: React.FC = () => {
                           <FaDiscord />
                         </a>
                       </li>
+                      <li>
+                        <a
+                          href={`mailto:universalcoffeecoin@gmail.com`}
+                          target="_top"
+                          rel="noopener noreferrer"
+                          style={{ fontSize: "20px" }}
+                        >
+                          Contact us
+                        </a>
+                      </li>
                       {/* <li>
                         <a href="https://medium.com/" target="_blank">
                           <FaMedium />

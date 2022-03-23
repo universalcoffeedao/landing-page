@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Button, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../../assets/logo.png";
 import styles from "./Footer.module.scss";
