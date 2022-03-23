@@ -9,6 +9,8 @@ import { IconButton } from "@mui/material";
 // import { Link } from "react-router-dom";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 
+import whitePaper from "../../../assets/whitePaper.pdf";
+
 type Anchor = "right";
 
 export default function MenuDrawer() {
@@ -47,7 +49,7 @@ export default function MenuDrawer() {
           <ListItemText
             primary={
               <li>
-                {/* <a
+                <a
                   href={whitePaper}
                   style={{
                     textDecoration: "none",
@@ -60,7 +62,7 @@ export default function MenuDrawer() {
                   rel="noreferrer"
                 >
                   Whitepaper
-                </a> */}
+                </a>
                 <a
                   href="https://docs.universalcoffee.xyz/"
                   style={{

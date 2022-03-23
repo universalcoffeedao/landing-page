@@ -1,6 +1,8 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 // import { Link, Outlet } from "react-router-dom";
+import whitePaper from "../../../assets/whitePaper.pdf";
+
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
@@ -51,9 +53,9 @@ const Header: React.FC = () => {
                   <nav className={styles.header_nav}>
                     <ul>
                       <li>
-                        {/* <a href={whitePaper} target="_blank" rel="noreferrer">
+                        <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
-                        </a> */}
+                        </a>
                         <a
                           href="https://docs.universalcoffee.xyz/"
                           target="_blank"
