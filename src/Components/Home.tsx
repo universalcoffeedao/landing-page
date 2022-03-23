@@ -18,9 +18,9 @@ const Home: React.FC = () => {
         {/* <section>
           <Portraait />
         </section> */}
-        {/* <section>
+        <section>
           <Introducing />
-        </section> */}
+        </section>
         <section>
           <StakingAPY />
         </section>
