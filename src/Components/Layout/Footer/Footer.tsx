@@ -1,8 +1,10 @@
-import { Container, Grid, Button, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../../assets/logo.png";
 import styles from "./Footer.module.scss";
-import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
+import { FaDiscord, FaMedium, FaTwitter } from "react-icons/fa";
+import whitePaper from "../../../assets/whitePaper.pdf";
+
 // import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
@@ -28,36 +30,42 @@ const Footer: React.FC = () => {
               </Typography>
             </div>
             <div>
-              <ul style={{ display: "flex" }}>
-                <li>
-                  <a
-                    href="https://twitter.com/coffee_unversal"
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                      fontSize: "30px",
-                      padding: "0 10px",
-                    }}
-                    target="_blank"
-                  >
-                    <FaTwitter />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/7D22JUbqPW"
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                      fontSize: "30px",
-                      padding: "0 10px",
-                    }}
-                    target="_blank"
-                  >
-                    <FaDiscord />
-                  </a>
-                </li>
-                {/* <li>
+              <nav className={styles.header_icon}>
+                <ul>
+                  <li>
+                    <a
+                      href="https://twitter.com/coffee_unversal"
+                      target="_blank"
+                    >
+                      <FaTwitter />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/7D22JUbqPW" target="_blank">
+                      <FaDiscord />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <nav className={styles.header_nav}>
+                <ul>
+                  <li>
+                    <a
+                      href={whitePaper}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={styles.text}
+                    >
+                      Whitepaper
+                    </a>
+                    <a href="https://docs.universalcoffee.xyz/" target="_blank">
+                      FAQs
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+              {/* <li>
                   <a
                     href="https://medium.com"
                     style={{
@@ -71,21 +79,6 @@ const Footer: React.FC = () => {
                     <FaMedium />
                   </a>
                 </li> */}
-                {/* <li>
-                  <a
-                    href="/"
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                      fontSize: "30px",
-                      padding: "0 10px",
-                    }}
-                    target="_blank"
-                  >
-                    <FaReddit />
-                  </a>
-                </li> */}
-              </ul>
             </div>
           </Grid>
           {/* <Grid

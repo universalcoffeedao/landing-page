@@ -102,8 +102,8 @@ const StakingAPY: React.FC = () => {
             color="inherit"
             className={styles.secondan_part_title}
           >
-            DAO members can suggest policies and vote for proposals to get
-            rewards with UCC.
+            DAO members can suggest policies and vote for proposals to
+            contribute to the community and get rewards with UCC.
           </Typography>
         </Grid>
       </Container>

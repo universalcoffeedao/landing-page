@@ -2,6 +2,8 @@ import { Container, Grid, Typography, Button } from "@mui/material";
 import React from "react";
 import styles from "./Introduc.module.scss";
 
+import whitePaper from "../../assets/whitePaper.pdf";
+
 const Introducing: React.FC = () => {
   return (
     <div className={styles.introduc_wrapper}>
@@ -19,19 +21,18 @@ const Introducing: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_title}
             >
-              Like Levi's in the Gold Rush
+              Universal Coffee Coin Benefits Everyone
             </Typography>
             <Typography
               variant="subtitle1"
               color="inherit"
               className={styles.introduc_left_description}
             >
-              {` NFT artists are gold miners. We supercharge them by adding utility in ther NFTs.
-							Purchase UCC with the minting price, distribute it to NFT holders, and let them enjoy the staking profit while holding your beautiful NFTs.  
+              {`Coffee lovers can cash out reward points any time in the exchange. Cafes can greatly reduce the payment processing fee and enjoy viral marketing effects by incorporating the blockchain into their reward system. 
 `}
             </Typography>
-            {/* <a
-              href=""
+            <a
+              href={whitePaper}
               target="_blank"
               style={{ textDecoration: "none" }}
             >
@@ -40,9 +41,9 @@ const Introducing: React.FC = () => {
                 color="primary"
                 className={styles.introduc_left_button}
               >
-                View Documentation
+                Read Whitepaper
               </Button>
-            </a> */}
+            </a>
           </Grid>
           {/* <Grid
             item

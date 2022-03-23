@@ -1,6 +1,6 @@
 .footer_wrapper {
   padding: 100px 0;
-  // background-color: #000;
+  background-color: #1b2530;
   // color: #fff;
   .footer_one_wrapper {
     .footer_logo_wrapper {
@@ -22,6 +22,69 @@
         font-size: 1.5rem;
         font-weight: bold;
         color: #ffa74f;
+      }
+    }
+    div {
+      justify-content: flex-end;
+      align-items: center;
+      .header_nav {
+        ul {
+          display: flex;
+          text-decoration: none;
+          list-style: none;
+          li {
+            a {
+              list-style: none;
+              text-decoration: none;
+              font-weight: 600;
+              color: #fff;
+              font-size: 20px;
+              padding: 10px;
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                color: #ffa74f;
+              }
+            }
+          }
+        }
+      }
+      .header_icon {
+        margin-bottom: 0.5em;
+        ul {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          list-style: none;
+          li {
+            a {
+              list-style: none;
+              text-decoration: none;
+              font-weight: 600;
+              color: #fff;
+              font-size: 30px;
+              padding: 0px 12px;
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                color: #ffc555;
+              }
+            }
+            .discord_button {
+              padding: 8px 16px;
+              border-radius: 8rem;
+              background-color: #ffc768;
+              -webkit-transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
+              transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
+              color: #000;
+              font-weight: 600;
+              font-size: 16px;
+              &:hover {
+                color: #000000;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -103,6 +166,27 @@
           &:hover {
             color: #ffc555;
           }
+        }
+      }
+    }
+  }
+}
+.header_nav {
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    li {
+      a {
+        list-style: none;
+        text-decoration: none;
+        font-weight: 600;
+        color: #ffa74f;
+        font-size: 20px;
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: #ffc555;
         }
       }
     }
