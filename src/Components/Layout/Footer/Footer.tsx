@@ -2,7 +2,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../../assets/logo.png";
 import styles from "./Footer.module.scss";
-import { FaDiscord, FaMedium, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
 import whitePaper from "../../../assets/whitePaper.pdf";
 
 // import { Link } from "react-router-dom";
@@ -43,6 +43,11 @@ const Footer: React.FC = () => {
                   <li>
                     <a href="https://discord.gg/7D22JUbqPW" target="_blank">
                       <FaDiscord />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://t.me/ucdaoopenchat" target="_blank">
+                      <FaTelegram />
                     </a>
                   </li>
                 </ul>

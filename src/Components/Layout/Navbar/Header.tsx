@@ -5,7 +5,7 @@ import whitePaper from "../../../assets/whitePaper.pdf";
 
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
-import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
+import { FaDiscord, FaMedium, FaTwitter, FaTelegram } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -97,11 +97,16 @@ const Header: React.FC = () => {
                         </a>
                       </li>
                       <li>
+                        <a href="https://t.me/ucdaoopenchat" target="_blank">
+                          <FaTelegram />
+                        </a>
+                      </li>
+                      <li>
                         <a
                           href={`mailto:universalcoffeecoin@gmail.com`}
                           target="_top"
                           rel="noopener noreferrer"
-                          style={{ fontSize: "20px" }}
+                          style={{ fontSize: "20px", marginLeft: "-0.2em" }}
                         >
                           Contact us
                         </a>
