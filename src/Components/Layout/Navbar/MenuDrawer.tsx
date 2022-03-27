@@ -10,6 +10,7 @@ import { IconButton } from "@mui/material";
 import { FaDiscord, FaMedium, FaTwitter, FaTelegram } from "react-icons/fa";
 
 import whitePaper from "../../../assets/whitePaper.pdf";
+import roadmap from "../../../assets/roadmap.pdf";
 
 type Anchor = "right";
 
@@ -54,7 +55,7 @@ export default function MenuDrawer() {
                   style={{
                     textDecoration: "none",
                     color: "#000000",
-                    paddingLeft: "15px",
+                    paddingLeft: "10px",
                     fontSize: "1.2rem",
                     fontWeight: "bold",
                   }}
@@ -64,11 +65,33 @@ export default function MenuDrawer() {
                   Whitepaper
                 </a>
                 <a
+                  href={roadmap}
+                  style={{
+                    textDecoration: "none",
+                    color: "#000000",
+                    paddingLeft: "10px",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Roadmap
+                </a>
+              </li>
+            }
+          />
+        </ListItem>
+        <ListItem button>
+          <ListItemText
+            primary={
+              <li>
+                <a
                   href="https://docs.universalcoffee.xyz/"
                   style={{
                     textDecoration: "none",
                     color: "#000000",
-                    paddingLeft: "15px",
+                    paddingLeft: "10px",
                     fontSize: "1.2rem",
                     fontWeight: "bold",
                   }}

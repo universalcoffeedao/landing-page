@@ -2,8 +2,15 @@ import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../../assets/logo.png";
 import styles from "./Footer.module.scss";
-import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaEnvelope,
+  FaGithub,
+  FaTelegram,
+  FaTwitter,
+} from "react-icons/fa";
 import whitePaper from "../../../assets/whitePaper.pdf";
+import roadmap from "../../../assets/roadmap.pdf";
 
 // import { Link } from "react-router-dom";
 
@@ -50,6 +57,22 @@ const Footer: React.FC = () => {
                       <FaTelegram />
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://github.com/universalcoffeedao"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={`mailto:universalcoffeecoin@gmail.com`}
+                      target="_blank"
+                    >
+                      <FaEnvelope />
+                    </a>
+                  </li>
                 </ul>
               </nav>
               <nav className={styles.header_nav}>
@@ -62,6 +85,14 @@ const Footer: React.FC = () => {
                       className={styles.text}
                     >
                       Whitepaper
+                    </a>
+                    <a
+                      href={roadmap}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={styles.text}
+                    >
+                      Roadmap
                     </a>
                     <a href="https://docs.universalcoffee.xyz/" target="_blank">
                       FAQs

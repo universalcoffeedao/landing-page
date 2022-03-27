@@ -2,6 +2,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 // import { Link, Outlet } from "react-router-dom";
 import whitePaper from "../../../assets/whitePaper.pdf";
+import roadmap from "../../../assets/roadmap.pdf";
 
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
@@ -55,6 +56,9 @@ const Header: React.FC = () => {
                       <li>
                         <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
+                        </a>
+                        <a href={roadmap} target="_blank" rel="noreferrer">
+                          Roadmap
                         </a>
                         <a
                           href="https://docs.universalcoffee.xyz/"
