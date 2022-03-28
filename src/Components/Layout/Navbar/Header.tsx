@@ -2,7 +2,6 @@ import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 // import { Link, Outlet } from "react-router-dom";
 import whitePaper from "../../../assets/whitePaper.pdf";
-import roadmap from "../../../assets/roadmap.pdf";
 
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
@@ -12,6 +11,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Header: React.FC = () => {
   const matches = useMediaQuery("(min-width:900px)");
+
   return (
     <div className={styles.header_wrapper}>
       <Container>
@@ -57,7 +57,12 @@ const Header: React.FC = () => {
                         <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
                         </a>
-                        <a href={roadmap} target="_blank" rel="noreferrer">
+                        <a
+                          href="#roadmap"
+                          onClick={() => {
+                            window.location.replace("/#roadmap");
+                          }}
+                        >
                           Roadmap
                         </a>
                         <a

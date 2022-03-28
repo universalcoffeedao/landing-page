@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./StakingAPY.module.scss";
 import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
