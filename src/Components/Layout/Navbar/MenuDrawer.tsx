@@ -65,7 +65,10 @@ export default function MenuDrawer() {
                   Whitepaper
                 </a>
                 <a
-                  href={roadmap}
+                  href="#roadmap"
+                  onClick={() => {
+                    window.location.replace("/#roadmap");
+                  }}
                   style={{
                     textDecoration: "none",
                     color: "#000000",
@@ -73,8 +76,6 @@ export default function MenuDrawer() {
                     fontSize: "1.2rem",
                     fontWeight: "bold",
                   }}
-                  target="_blank"
-                  rel="noreferrer"
                 >
                   Roadmap
                 </a>

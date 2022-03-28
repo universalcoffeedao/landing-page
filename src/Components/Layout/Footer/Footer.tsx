@@ -87,9 +87,10 @@ const Footer: React.FC = () => {
                       Whitepaper
                     </a>
                     <a
-                      href={roadmap}
-                      target="_blank"
-                      rel="noreferrer"
+                      href="#roadmap"
+                      onClick={() => {
+                        window.location.replace("/#roadmap");
+                      }}
                       className={styles.text}
                     >
                       Roadmap

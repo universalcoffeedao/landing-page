@@ -1,13 +1,13 @@
 .store_wrapper {
-  padding: 100px 0;
-  background-color: #fdb750;
+  background-color: #383132;
+  scroll-behavior: smooth;
 
   .store_content {
     .store_left_content {
       display: flex;
       align-items: center;
       h3 {
-        max-width: 40rem;
+        max-width: 45rem;
         font-size: 3.75rem;
         margin-top: 0;
         margin-bottom: 1rem;

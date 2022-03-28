@@ -4,37 +4,26 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
+import roadmap from "./roadmap.png";
+
 const Store: React.FC = () => {
   return (
     <div className={styles.store_wrapper}>
       <Container>
-        <Grid container spacing={1} className={styles.store_content}>
+        <Grid container className={styles.store_content}>
           <Grid
             item
-            md={7}
-            sm={7}
+            md={12}
+            sm={12}
             xs={12}
             className={styles.store_left_content}
           >
-            <Typography variant="h3" color="inherit">
-              The New Tokenomics - DeFi 2.0 + NFT
-            </Typography>
-          </Grid>
-          <Grid
-            item
-            md={5}
-            sm={5}
-            xs={12}
-            className={styles.store_right_content}
-          >
-            <Typography variant="subtitle1" color="inherit">
-              DeFi 2.0 and NFT are here to stay, and we're combining both of
-              them.
-            </Typography>
-            <br />
-            <Typography variant="subtitle1" color="inherit">
-              UCC
-            </Typography>
+            <img
+              src={roadmap}
+              alt="roadmap"
+              style={{ width: "100%" }}
+              id="roadmap"
+            />
           </Grid>
         </Grid>
       </Container>
