@@ -28,13 +28,15 @@ const HeroArea: React.FC = () => {
               style={{ textDecoration: "none", display: "flex" }}
               className={styles.heroArea_right_wrapper}
             >
-              {/* <Button
+              <Button
                 variant="contained"
                 color="primary"
                 className={styles.heroArea_rightButton}
+                href="https://quickswap.exchange/#/swap?inputCurrency=&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
+                target="_blank"
               >
-                Buy on Uniswap
-              </Button> */}
+                Buy on Quickswap
+              </Button>
               <Button
                 variant="contained"
                 color="primary"
