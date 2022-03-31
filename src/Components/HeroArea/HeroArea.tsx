@@ -35,7 +35,7 @@ const HeroArea: React.FC = () => {
                 href="https://quickswap.exchange/#/swap?inputCurrency=&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
                 target="_blank"
               >
-                Buy on Quickswap
+                Buy On Quickswap
               </Button>
               <Button
                 variant="contained"
