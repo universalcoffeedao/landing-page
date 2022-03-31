@@ -108,19 +108,22 @@
       align-items: center;
       margin-top: 3em;
       @media screen and (max-width: 899px) {
+        margin-top: 1em;
+        align-items: center;
+
         justify-content: center;
       }
       .heroArea_rightButton {
         padding: 15px 20px;
         border-radius: 8rem;
-        background-color: #523a28;
+        background-color: #000000;
         -webkit-transition: color 0.2s ease-in-out,
           background-color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
         color: #ffa74f;
         font-weight: 600;
         font-size: 21px;
-        margin-right: 1em;
+        margin-right: 1.5em;
 
         &:hover {
           background-color: #ffa74f;
@@ -128,7 +131,9 @@
         }
         @media screen and (max-width: 599px) {
           font-size: 1.1rem;
-          padding: 15px 32px;
+          padding: 15px 33px;
+          margin-bottom: 1em;
+          margin-right: 0em;
         }
       }
     }

@@ -52,11 +52,11 @@ const Footer: React.FC = () => {
                       <FaDiscord />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://t.me/ucdaoopenchat" target="_blank">
                       <FaTelegram />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://github.com/universalcoffeedao"

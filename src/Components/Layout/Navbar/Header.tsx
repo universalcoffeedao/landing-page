@@ -105,12 +105,12 @@ const Header: React.FC = () => {
                           <FaDiscord />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://t.me/ucdaoopenchat" target="_blank">
                           <FaTelegram />
                         </a>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           href={`mailto:universalcoffeecoin@gmail.com`}
                           target="_top"
@@ -119,7 +119,7 @@ const Header: React.FC = () => {
                         >
                           Contact us
                         </a>
-                      </li>
+                      </li> */}
                       {/* <li>
                         <a href="https://medium.com/" target="_blank">
                           <FaMedium />
