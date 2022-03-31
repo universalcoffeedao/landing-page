@@ -9,24 +9,26 @@ import roadmap from "./roadmap.png";
 const Store: React.FC = () => {
   return (
     <div className={styles.store_wrapper}>
-      <Container>
-        <Grid container className={styles.store_content}>
-          <Grid
-            item
-            md={12}
-            sm={12}
-            xs={12}
-            className={styles.store_left_content}
-          >
-            <img
-              src={roadmap}
-              alt="roadmap"
-              style={{ width: "100%" }}
-              id="roadmap"
-            />
-          </Grid>
+      <Grid container className={styles.store_content}>
+        <Grid
+          item
+          lg={12}
+          md={12}
+          sm={12}
+          xs={12}
+          className={styles.store_left_content}
+        >
+          <img
+            src={roadmap}
+            alt="roadmap"
+            style={{
+              width: "100vw",
+              maxWidth: "800px",
+            }}
+            id="roadmap"
+          />
         </Grid>
-      </Container>
+      </Grid>
     </div>
   );
 };

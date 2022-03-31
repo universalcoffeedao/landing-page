@@ -25,14 +25,14 @@ const HeroArea: React.FC = () => {
             </div>
             <a
               target="_blank"
-              style={{ textDecoration: "none", display: "flex" }}
+              style={{ textDecoration: "none" }}
               className={styles.heroArea_right_wrapper}
             >
               <Button
                 variant="contained"
                 color="primary"
                 className={styles.heroArea_rightButton}
-                href="https://quickswap.exchange/#/swap?inputCurrency=&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
+                href="https://quickswap.exchange/#/swap?inputCurrency=0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
                 target="_blank"
               >
                 Buy On Quickswap
@@ -41,10 +41,10 @@ const HeroArea: React.FC = () => {
                 variant="contained"
                 color="primary"
                 className={styles.heroArea_rightButton}
-                href="https://discord.gg/7D22JUbqPW"
+                href="https://calendly.com/eric6/30min"
                 target="_blank"
               >
-                Join Our Discord
+                Meet The Team
               </Button>
             </a>
           </Grid>

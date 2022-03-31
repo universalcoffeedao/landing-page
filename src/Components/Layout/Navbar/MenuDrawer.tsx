@@ -136,7 +136,7 @@ export default function MenuDrawer() {
                     <FaDiscord />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://t.me/ucdaoopenchat"
                     style={{
@@ -149,7 +149,7 @@ export default function MenuDrawer() {
                   >
                     <FaTelegram />
                   </a>
-                </li>
+                </li> */}
                 {/* <li>
                   <a
                     href="https://medium.com"

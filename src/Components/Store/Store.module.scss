@@ -6,6 +6,7 @@
     .store_left_content {
       display: flex;
       align-items: center;
+      justify-content: center;
       h3 {
         max-width: 45rem;
         font-size: 3.75rem;
@@ -19,6 +20,7 @@
         }
       }
     }
+
     .store_right_content {
       h6 {
         max-width: 28rem;
