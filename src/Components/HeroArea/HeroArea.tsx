@@ -32,10 +32,10 @@ const HeroArea: React.FC = () => {
                 variant="contained"
                 color="primary"
                 className={styles.heroArea_rightButton}
-                href="https://quickswap.exchange/#/swap?inputCurrency=0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
+                href="https://app.uniswap.org/#/swap?chain=polygon&inputCurrency=0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063&outputCurrency=0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB"
                 target="_blank"
               >
-                Buy On Quickswap
+                Buy On Uniswap
               </Button>
               <Button
                 variant="contained"
