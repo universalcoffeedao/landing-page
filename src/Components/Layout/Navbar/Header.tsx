@@ -94,7 +94,7 @@ const Header: React.FC = () => {
                     <ul>
                       <li>
                         <a
-                          href="https://twitter.com/coffee_unversal"
+                          href="https://twitter.com/coffeedao_eth"
                           target="_blank"
                         >
                           <FaTwitter />

@@ -110,7 +110,7 @@ export default function MenuDrawer() {
               <ul style={{ display: "flex" }}>
                 <li>
                   <a
-                    href="https://twitter.com/coffee_unversal"
+                    href="https://twitter.com/coffeedao_eth"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
