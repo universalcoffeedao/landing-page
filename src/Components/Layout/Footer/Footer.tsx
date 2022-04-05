@@ -40,10 +40,7 @@ const Footer: React.FC = () => {
               <nav className={styles.header_icon}>
                 <ul>
                   <li>
-                    <a
-                      href="https://twitter.com/coffee_unversal"
-                      target="_blank"
-                    >
+                    <a href="https://twitter.com/coffeedao_eth" target="_blank">
                       <FaTwitter />
                     </a>
                   </li>
