@@ -40,7 +40,7 @@ const ZapBond: React.FC = () => {
                 color="primary"
                 className={styles.zapBond_left_button}
                 target="_blank"
-                href="https://polygonscan.com/tx/0x1e4356a4815caf6b502070d805262551cad6eeffe74743f202718251580e9e48"
+                href="https://polygonscan.com/tx/0x1e4356a4815caf6b502070d805262551cad6eeffe74743f202718251580e9e48#eventlog"
               >
                 Check on Polygonscan
               </Button>
