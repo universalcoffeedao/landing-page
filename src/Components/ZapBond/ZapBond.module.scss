@@ -65,10 +65,14 @@
           padding: 1rem 1.75rem;
           font-size: 1.125rem;
           border-radius: 8rem;
-          background-color: #ffc768;
+          background-color: #ffa74f;
           transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
           color: #000;
           font-weight: 600;
+          &:hover {
+            background-color: #000000;
+            color: #ffa74f;
+          }
           @media screen and (max-width: 599px) {
             font-size: 1rem;
           }
