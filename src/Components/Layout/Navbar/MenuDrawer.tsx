@@ -100,6 +100,19 @@ export default function MenuDrawer() {
                 >
                   FAQs
                 </a>
+                <a
+                  href="https://snapshot.org/#/universalcoffee.xyz"
+                  style={{
+                    textDecoration: "none",
+                    color: "#000000",
+                    paddingLeft: "10px",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  target="_blank"
+                >
+                  Vote
+                </a>
               </li>
             }
           />

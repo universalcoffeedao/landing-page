@@ -22,15 +22,15 @@ const Home: React.FC = () => {
           <Introducing />
         </section>
         <section>
+          <ZapBond />
+        </section>
+        <section>
           <Store />
         </section>
         <section>
           <StakingAPY />
         </section>
 
-        {/* <section>
-          <ZapBond />
-        </section> */}
         {/* <section>
           <Works />
         </section> */}

@@ -14,6 +14,7 @@ const Introducing: React.FC = () => {
             md={6}
             sm={6}
             xs={12}
+            order={{ lg: 1, md: 1, sm: 1, xs: 2 }}
             className={styles.introduc_left_side}
           >
             <Typography
@@ -45,15 +46,16 @@ const Introducing: React.FC = () => {
               </Button>
             </a>
           </Grid>
-          {/* <Grid
+          <Grid
             item
             md={6}
             sm={6}
             xs={12}
+            order={{ lg: 2, md: 2, sm: 2, xs: 1 }}
             className={styles.introduc_right_side}
           >
             <div className={styles.img_wrapper}></div>
-          </Grid> */}
+          </Grid>
         </Grid>
       </Container>
     </div>

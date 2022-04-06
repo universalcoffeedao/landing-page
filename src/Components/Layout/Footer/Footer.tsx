@@ -95,6 +95,12 @@ const Footer: React.FC = () => {
                     <a href="https://docs.universalcoffee.xyz/" target="_blank">
                       FAQs
                     </a>
+                    <a
+                      href="https://snapshot.org/#/universalcoffee.xyz"
+                      target="_blank"
+                    >
+                      Vote
+                    </a>
                   </li>
                 </ul>
               </nav>

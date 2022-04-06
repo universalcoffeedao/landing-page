@@ -71,6 +71,12 @@ const Header: React.FC = () => {
                         >
                           FAQs
                         </a>
+                        <a
+                          href="https://snapshot.org/#/universalcoffee.xyz"
+                          target="_blank"
+                        >
+                          Vote
+                        </a>
                       </li>
 
                       {/* <li>
