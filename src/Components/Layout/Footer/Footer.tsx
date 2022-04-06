@@ -27,14 +27,21 @@ const Footer: React.FC = () => {
             className={styles.footer_one_wrapper}
           >
             <div className={styles.footer_logo_wrapper}>
-              <img src={Logo} alt="logo" className={styles.header_logo} />
-              <Typography
-                variant="h6"
-                color="inherit"
-                className={styles.header_title}
+              <button
+                style={{ all: "unset", cursor: "pointer" }}
+                onClick={() => window.scrollTo(0, 0)}
               >
-                UniversalCoffeeDAO
-              </Typography>
+                <div style={{ display: "flex" }}>
+                  <img src={Logo} alt="logo" className={styles.header_logo} />
+                  <Typography
+                    variant="h6"
+                    color="inherit"
+                    className={styles.header_title}
+                  >
+                    UniversalCoffeeDAO
+                  </Typography>
+                </div>
+              </button>
             </div>
             <div>
               <nav className={styles.header_icon}>

@@ -30,16 +30,21 @@ const Header: React.FC = () => {
             xs={6}
             className={styles.header_left_content}
           >
-            <>
-              <img src={Logo} alt="logo" className={styles.header_logo} />
-              <Typography
-                variant="h6"
-                color="inherit"
-                className={styles.header_title}
-              >
-                UniversalCoffeeDAO
-              </Typography>
-            </>
+            <button
+              style={{ all: "unset", cursor: "pointer" }}
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              <div style={{ display: "flex" }}>
+                <img src={Logo} alt="logo" className={styles.header_logo} />
+                <Typography
+                  variant="h6"
+                  color="inherit"
+                  className={styles.header_title}
+                >
+                  UniversalCoffeeDAO
+                </Typography>
+              </div>
+            </button>
           </Grid>
           <Grid
             item
