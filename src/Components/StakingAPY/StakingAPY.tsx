@@ -10,7 +10,7 @@ const StakingAPY: React.FC = () => {
       <Container>
         <div className={styles.stackingAPY_title}>
           <Typography variant="h5" color="inherit">
-            Run By DAO
+            Decentralization + Centralization
           </Typography>
         </div>
         {/* <Grid
@@ -102,8 +102,9 @@ const StakingAPY: React.FC = () => {
             color="inherit"
             className={styles.secondan_part_title}
           >
-            DAO members can suggest policies and vote for proposals to
-            contribute to the community and get rewards with UCC.
+            UniversalCoffeeDAO will be decentralized enough for UCC holders to
+            participate in the DAO governance and centralized enough for the
+            founding team to develop the protocol at a fast pace.
           </Typography>
         </Grid>
       </Container>

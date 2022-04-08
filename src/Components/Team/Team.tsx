@@ -27,11 +27,12 @@ const Team: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_description}
             >
-              Eric is leading the protocol to find the fine balance between
-              decentralization and centralization. UniversalCoffeeDAO will be
-              decentralized enough for UCC holders to participate in the DAO
-              governance and centralized enough for the founding team to develop
-              the protocol at a fast pace.
+              Eric is leading the protocol to build a worldwide community for
+              all the coffee lovers and coffee business owners in the world.
+              Other than being a coffee lover himself, he was previously a
+              software engineer, graduated from Harvard University with a
+              Master’s in Data Science, and graduated from the University of
+              Notre Dame with a Bachelor’s in Mathematics.
             </Typography>
             <a
               href="https://calendly.com/eric6/30min"

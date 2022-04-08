@@ -5,15 +5,17 @@
   .stackingAPY_title {
     display: flex;
     justify-content: center;
+    align-items: center;
+
     margin-bottom: 1em;
     h5 {
-      font-size: 3.75rem;
+      font-size: 2.5rem;
       margin-top: 0;
       margin-bottom: 1rem;
       line-height: 1.1;
       font-weight: 600;
       @media screen and (max-width: 599px) {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
   }
@@ -97,6 +99,8 @@
   .secondan_part {
     height: 140px;
     justify-content: center;
+    align-items: center;
+
     // background-image: url(../../assets/three.png);
     background-position: 50% 50%;
     background-size: auto 234px;
@@ -104,10 +108,10 @@
 
     .secondan_part_title {
       max-width: 55rem;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-family: "Red Hat Text", sans-serif;
       @media screen and (max-width: 599px) {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
     }
   }
