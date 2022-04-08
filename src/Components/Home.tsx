@@ -9,6 +9,7 @@ import {
   Store,
   StakingAPY,
 } from "./index";
+import Team from "./Team/Team";
 
 const Home: React.FC = () => {
   return (
@@ -27,10 +28,13 @@ const Home: React.FC = () => {
         <section>
           <Store />
         </section>
+
+        <section>
+          <Team />
+        </section>
         <section>
           <StakingAPY />
         </section>
-
         {/* <section>
           <Works />
         </section> */}

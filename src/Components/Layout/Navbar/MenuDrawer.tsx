@@ -88,6 +88,21 @@ export default function MenuDrawer() {
             primary={
               <li>
                 <a
+                  href="#team"
+                  style={{
+                    textDecoration: "none",
+                    color: "#000000",
+                    paddingLeft: "10px",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  onClick={() => {
+                    window.location.replace("/#team");
+                  }}
+                >
+                  Team
+                </a>
+                <a
                   href="https://docs.universalcoffee.xyz/"
                   style={{
                     textDecoration: "none",
