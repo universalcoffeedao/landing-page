@@ -71,6 +71,14 @@ const Header: React.FC = () => {
                           Roadmap
                         </a>
                         <a
+                          href="#team"
+                          onClick={() => {
+                            window.location.replace("/#team");
+                          }}
+                        >
+                          Team
+                        </a>
+                        <a
                           href="https://docs.universalcoffee.xyz/"
                           target="_blank"
                         >
