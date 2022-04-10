@@ -139,11 +139,14 @@ const Header: React.FC = () => {
                           Contact us
                         </a>
                       </li> */}
-                      {/* <li>
-                        <a href="https://medium.com/" target="_blank">
+                      <li>
+                        <a
+                          href="https://medium.com/@universalcoffeecoin/introducing-universalcoffeedao-ea64c87be613"
+                          target="_blank"
+                        >
                           <FaMedium />
                         </a>
-                      </li> */}
+                      </li>
                       {/* <li>
                         <a href="/">
                           <FaReddit />

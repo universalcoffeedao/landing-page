@@ -178,9 +178,9 @@ export default function MenuDrawer() {
                     <FaTelegram />
                   </a>
                 </li> */}
-                {/* <li>
+                <li>
                   <a
-                    href="https://medium.com"
+                    href="https://medium.com/@universalcoffeecoin/introducing-universalcoffeedao-ea64c87be613"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
@@ -191,7 +191,7 @@ export default function MenuDrawer() {
                   >
                     <FaMedium />
                   </a>
-                </li> */}
+                </li>
                 {/* <li>
                   <a
                     href="/"

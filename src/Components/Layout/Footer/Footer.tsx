@@ -6,7 +6,7 @@ import {
   FaDiscord,
   FaEnvelope,
   FaGithub,
-  FaTelegram,
+  FaMedium,
   FaTwitter,
 } from "react-icons/fa";
 import whitePaper from "../../../assets/whitePaper.pdf";
@@ -71,6 +71,14 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <a
+                      href="https://medium.com/@universalcoffeecoin/introducing-universalcoffeedao-ea64c87be613"
+                      target="_blank"
+                    >
+                      <FaMedium />
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href={`mailto:universalcoffeecoin@gmail.com`}
                       target="_blank"
                     >
@@ -111,21 +119,6 @@ const Footer: React.FC = () => {
                   </li>
                 </ul>
               </nav>
-
-              {/* <li>
-                  <a
-                    href="https://medium.com"
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                      fontSize: "30px",
-                      padding: "0 10px",
-                    }}
-                    target="_blank"
-                  >
-                    <FaMedium />
-                  </a>
-                </li> */}
             </div>
           </Grid>
           {/* <Grid
