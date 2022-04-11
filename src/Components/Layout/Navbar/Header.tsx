@@ -124,21 +124,6 @@ const Header: React.FC = () => {
                           <FaDiscord />
                         </a>
                       </li>
-                      {/* <li>
-                        <a href="https://t.me/ucdaoopenchat" target="_blank">
-                          <FaTelegram />
-                        </a>
-                      </li> */}
-                      {/* <li>
-                        <a
-                          href={`mailto:universalcoffeecoin@gmail.com`}
-                          target="_top"
-                          rel="noopener noreferrer"
-                          style={{ fontSize: "20px", marginLeft: "-0.2em" }}
-                        >
-                          Contact us
-                        </a>
-                      </li> */}
                       <li>
                         <a
                           href="https://medium.com/@universalcoffeecoin/introducing-universalcoffeedao-ea64c87be613"
@@ -147,20 +132,16 @@ const Header: React.FC = () => {
                           <FaMedium />
                         </a>
                       </li>
-                      {/* <li>
-                        <a href="/">
-                          <FaReddit />
-                        </a>
-                      </li> */}
-                      {/* <li>
-                        <a
-                          href="https://discord.gg/7D22JUbqPW"
-                          target="_blank"
-                          className={styles.discord_button}
-                        >
-                          Join our Discord
-                        </a>
-                      </li> */}
+                      <li>
+                        <div className={styles.app}>
+                          <a
+                            href="https://app.universalcoffee.xyz/#/dashboard"
+                            target="_blank"
+                          >
+                            Enter App
+                          </a>
+                        </div>
+                      </li>
                     </ul>
                   </nav>
                   {/* <Outlet /> */}

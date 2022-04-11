@@ -75,6 +75,25 @@
                 color: #ffc555;
               }
             }
+            div {
+              a {
+                list-style: none;
+                text-decoration: none;
+                font-weight: 600;
+                color: #ffc555;
+                background-color: #000;
+                border-radius: 20px;
+
+                font-size: 20px;
+                margin-left: 10px;
+                padding: 10px 20px;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                  color: #000;
+                  background-color: #ffc555;
+                }
+              }
+            }
 
             .discord_button {
               padding: 8px 16px;
