@@ -51,6 +51,31 @@ export default function MenuDrawer() {
             primary={
               <li>
                 <a
+                  href="https://app.universalcoffee.xyz/#/"
+                  style={{
+                    textDecoration: "none",
+                    backgroundColor: "#000",
+                    color: "#ffc555",
+                    padding: "10px 15px",
+                    borderRadius: "20px",
+                    justifyContent: "center",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Enter App
+                </a>
+              </li>
+            }
+          />
+        </ListItem>
+        <ListItem button>
+          <ListItemText
+            primary={
+              <li>
+                <a
                   href={whitePaper}
                   style={{
                     textDecoration: "none",
