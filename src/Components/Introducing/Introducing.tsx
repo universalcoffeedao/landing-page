@@ -29,8 +29,10 @@ const Introducing: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_description}
             >
-              {`Coffee lovers can cash out reward points any time in the exchange. Cafes can greatly reduce the payment processing fee and enjoy viral marketing effects by incorporating the blockchain into their reward system. 
-`}
+              Coffee lovers can cash out reward points at any time in the
+              exchange or use them to purchase coffee. Cafes can enjoy viral
+              marketing effects and greatly reduce the payment processing fee by
+              incorporating the blockchain into their reward system.
             </Typography>
             <a
               href={whitePaper}
