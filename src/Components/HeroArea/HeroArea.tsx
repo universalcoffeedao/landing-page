@@ -43,15 +43,15 @@ const HeroArea: React.FC = () => {
                 >
                   Enter App
                 </Button>
-                {/* <Button
+                <Button
                   variant="contained"
                   color="primary"
                   className={styles.heroArea_rightButton}
-                  href="https://twitter.com/echoi333"
+                  href="https://discord.gg/7D22JUbqPW"
                   target="_blank"
                 >
-                  Meet The Founder
-                </Button> */}
+                  Join Our Discord
+                </Button>
               </a>
             </Grid>
             {/* <Grid
