@@ -2,13 +2,13 @@ import React from "react";
 import {
   Layout,
   HeroArea,
-  Portraait,
+  Transparency,
   Introducing,
   ZapBond,
-  Works,
   Store,
   StakingAPY,
 } from "./index";
+import SmallBusiness from "./SmallBusiness/SmallBusiness";
 import Team from "./Team/Team";
 
 const Home: React.FC = () => {
@@ -23,8 +23,15 @@ const Home: React.FC = () => {
           <Introducing />
         </section>
         <section>
+          <SmallBusiness />
+        </section>
+        <section>
+          <Transparency />
+        </section>
+        <section>
           <ZapBond />
         </section>
+
         <section>
           <Store />
         </section>
