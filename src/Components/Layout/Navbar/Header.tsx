@@ -5,7 +5,7 @@ import whitePaper from "../../../assets/whitePaper.pdf";
 
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
-import { FaDiscord, FaMedium, FaTwitter, FaTelegram } from "react-icons/fa";
+import { FaDiscord, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -122,6 +122,14 @@ const Header: React.FC = () => {
                       <li>
                         <a href="https://discord.gg/7D22JUbqPW" target="_blank">
                           <FaDiscord />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=j8Qat7-QWqc"
+                          target="_blank"
+                        >
+                          <FaYoutube />
                         </a>
                       </li>
                       <li>
