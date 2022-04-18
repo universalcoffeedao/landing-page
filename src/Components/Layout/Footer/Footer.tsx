@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaMedium,
   FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
 import whitePaper from "../../../assets/whitePaper.pdf";
 import roadmap from "../../../assets/roadmap.pdf";
@@ -67,6 +68,14 @@ const Footer: React.FC = () => {
                       target="_blank"
                     >
                       <FaGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=j8Qat7-QWqc"
+                      target="_blank"
+                    >
+                      <FaYoutube />
                     </a>
                   </li>
                   <li>
