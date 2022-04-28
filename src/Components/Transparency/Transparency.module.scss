@@ -1,7 +1,7 @@
 .introduc_wrapper {
   background-color: #fff0df;
   .introduc_content {
-    padding-top: 70px;
+    padding-top: 60px;
 
     .introduc_left_side {
       .introduc_left_title {
@@ -44,7 +44,7 @@
 
         @media screen and (max-width: 599px) {
           font-size: 1rem;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
         }
       }
     }
@@ -70,7 +70,8 @@
         @media screen and (max-width: 599px) {
           width: 470px;
           height: 300px;
-          margin-left: -0.4rem;
+          margin-left: -0.6rem;
+          margin-right: 0rem;
           margin-bottom: 0rem;
         }
       }

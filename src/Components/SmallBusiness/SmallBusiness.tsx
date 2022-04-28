@@ -23,7 +23,7 @@ const SmallBusiness: React.FC = () => {
               color="inherit"
               className={styles.zapBond_left_title}
             >
-              Grants For Small Businesses
+              Support For Small Business
             </Typography>
             <Typography
               variant="subtitle1"
@@ -31,8 +31,8 @@ const SmallBusiness: React.FC = () => {
               className={styles.zapBond_left_description}
             >
               We honor small businesses. So much so that we'll support them and
-              grow together with them. Please send a DM to Eric about receiving
-              grants and partnering with us.
+              grow together with them. Please send a DM to Eric to receive
+              grants and partner with us.
             </Typography>
             <div className={styles?.button_wrapper}>
               <Button

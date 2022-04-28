@@ -1,6 +1,7 @@
 export { default as Layout } from "./Layout";
 export { default as HeroArea } from "./HeroArea/HeroArea";
 export { default as Portraait } from "./Portraait/Portraait";
+export { default as Partners } from "./Partners/Partners";
 export { default as Introducing } from "./Introducing/Introducing";
 export { default as Transparency } from "./Transparency/Transparency";
 export { default as ZapBond } from "./ZapBond/ZapBond";

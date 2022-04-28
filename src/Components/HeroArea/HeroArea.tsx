@@ -34,7 +34,7 @@ const HeroArea: React.FC = () => {
                 style={{ textDecoration: "none" }}
                 className={styles.heroArea_right_wrapper}
               >
-                <Button
+                {/* <Button
                   variant="contained"
                   color="primary"
                   className={styles.heroArea_leftButton}
@@ -42,7 +42,7 @@ const HeroArea: React.FC = () => {
                   target="_blank"
                 >
                   Enter App
-                </Button>
+                </Button> */}
                 <Button
                   variant="contained"
                   color="primary"

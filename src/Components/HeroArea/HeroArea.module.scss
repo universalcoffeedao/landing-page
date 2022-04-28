@@ -1,7 +1,11 @@
 .outerDiv {
   position: relative;
   width: 100%;
-  height: 850px;
+  height: 835px;
+
+  @media screen and (max-width: 599px) {
+    height: 667px;
+  }
 }
 video {
   z-index: -1;
@@ -25,9 +29,11 @@ video {
   padding: 100px 0;
   @media screen and (max-width: 599px) {
     background-image: url(../../assets/backgroundImage2.png);
-    height: 740px;
+    width: 100vw;
 
-    padding: 50px 0;
+    height: 537px;
+
+    padding: 65px 0;
     background-size: cover;
   }
 
@@ -148,7 +154,7 @@ video {
         -webkit-transition: color 0.2s ease-in-out,
           background-color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-        color: #fff;
+        color: #ffa74f;
         font-weight: 600;
         font-size: 24px;
         margin-right: 1.5em;
