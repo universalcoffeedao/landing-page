@@ -3,6 +3,7 @@ import {
   Layout,
   HeroArea,
   Transparency,
+  Partners,
   Introducing,
   ZapBond,
   Store,
@@ -20,11 +21,15 @@ const Home: React.FC = () => {
           <Portraait />
         </section> */}
         <section>
-          <Introducing />
+          <Partners />
         </section>
         <section>
           <SmallBusiness />
         </section>
+        <section>
+          <Introducing />
+        </section>
+
         <section>
           <Transparency />
         </section>
