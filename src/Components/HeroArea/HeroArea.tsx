@@ -20,8 +20,8 @@ const HeroArea: React.FC = () => {
                   Blockchain-Based Universal Coffee Rewards Program
                 </Typography>
                 <Typography variant="h6" color="inherit">
-                  Universal Coffee Coin (UCC) is the reward point for all coffee
-                  shops in the world.
+                  Universal Coffee Coin (UCC) is the reward point for all the
+                  small businesses in the world.
                 </Typography>
                 <img
                   src={polygonImage}

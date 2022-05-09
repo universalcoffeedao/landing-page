@@ -32,7 +32,8 @@ const ZapBond: React.FC = () => {
             >
               The founding team has renounced the ownership of the UCC contract.
               This means that there will be no UCC minted anymore, the UCC
-              contract can’t be rugged, and the protocol is fully decentralized.
+              contract can’t be manipulated, and the protocol is fully
+              decentralized.
             </Typography>
             <div className={styles?.button_wrapper}>
               <Button

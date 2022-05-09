@@ -29,10 +29,11 @@ const Introducing: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_description}
             >
-              Coffee lovers can cash out reward points at any time in the
-              exchange or use them to purchase coffee. Cafes can enjoy viral
-              marketing effects and greatly reduce the payment processing fee by
-              incorporating the blockchain into their reward system.
+              Customers can cash out UCC at any time in the exchange or will be
+              able to use them to purchase products. Small businesses can enjoy
+              viral marketing effects since they provide an actual benefit to
+              the customers by providing blockchain-based reward points that
+              never expire and have monetary values.
             </Typography>
             <a
               href={whitePaper}

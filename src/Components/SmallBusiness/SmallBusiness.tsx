@@ -31,8 +31,9 @@ const SmallBusiness: React.FC = () => {
               className={styles.zapBond_left_description}
             >
               We honor small businesses. So much so that we'll support them and
-              grow together with them. Please send a DM to Eric to receive
-              grants and partner with us.
+              grow together. Whether you’re running a local business or an NFT
+              project, we’d like to help you grow. Please send a DM to Eric to
+              receive grants and partner with us.
             </Typography>
             <div className={styles?.button_wrapper}>
               <Button
