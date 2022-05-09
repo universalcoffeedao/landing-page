@@ -1,6 +1,6 @@
 .introduc_wrapper {
   background-color: #fff0df;
-  height: 615px;
+  height: 990px;
 
   @media screen and (max-width: 599px) {
     height: auto;
@@ -22,9 +22,13 @@
   .content {
     justify-content: center;
     align-items: center;
-    text-align: center;
     align-content: center;
+    text-align: center;
 
+    @media screen and (max-width: 599px) {
+      margin-left: 0rem;
+      text-align: start;
+    }
     a {
       img {
         display: block;
@@ -34,6 +38,7 @@
     }
     .description {
       display: block;
+      margin-top: 1rem;
     }
     .introduc_left_button {
       padding: 1rem 1.75rem;

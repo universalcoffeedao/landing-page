@@ -29,11 +29,10 @@ const Transparency: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_description}
             >
-              We won’t stop until we partner with all the coffee shops in the
-              world. More than 85% of the total supply of UCC is locked for 1 or
-              2 years. The founding team’s shares are vested for 4 years. Trust
-              with our community members is a key and UCC will only be used to
-              reward them and expand the community.
+              UCC has a 1 billion fixed supply. 43% of the total supply is
+              locked for 1 year and another 42% is locked for 2 years. The
+              founding team’s shares are vested for 4 years. All of the above
+              are implemented in the smart contracts.
             </Typography>
             <a
               href="https://polygonscan.com/token/0x35C3c8096CDe3c13a565b68d17b9Bf1f9836B9eB#balances"

@@ -2,6 +2,7 @@ import { Container, Grid, Typography, Button, Paper } from "@mui/material";
 import React from "react";
 import styles from "./Partners.module.scss";
 
+import cryptoBaristas from "../../assets/cryptoBaristas.png";
 import theCafeDao from "../../assets/theCafeDao.png";
 import gourmetLatte from "../../assets/gourmetLatte.png";
 import redBucketCoffee from "../../assets/redBucketCoffee.png";
@@ -19,6 +20,25 @@ const Partners: React.FC = () => {
         </Typography>
 
         <Grid container spacing={2}>
+          <Grid item md={4} sm={4} xs={12} className={styles.content}>
+            <a
+              target="_blank"
+              style={{
+                textDecoration: "none",
+              }}
+              href="https://cryptobaristas.com/"
+            >
+              <img src={cryptoBaristas} alt="TheCafeDAO" />
+            </a>
+            <Typography
+              variant="h6"
+              color="inherit"
+              className={styles.description}
+            >
+              Crypto Baristas issue NFTs to provide an award-winning coffee to
+              the holders and contribute to the farm and producers.
+            </Typography>
+          </Grid>
           <Grid item md={4} sm={4} xs={12} className={styles.content}>
             <a
               target="_blank"
@@ -51,8 +71,8 @@ const Partners: React.FC = () => {
               color="inherit"
               className={styles.description}
             >
-              Gourmet Latte is a drive-thru chain offering espresso, smoothies &
-              other drinks, plus baked goods, bagels & sandwiches.
+              Gourmet Latte is a drive-thru chain with 21 locations in WA,
+              offering various drinks, baked goods, and sandwiches.
             </Typography>
           </Grid>
           <Grid item md={4} sm={4} xs={12} className={styles.content}>
@@ -68,8 +88,8 @@ const Partners: React.FC = () => {
               color="inherit"
               className={styles.description}
             >
-              Red Bucket Coffee sells the highest quality coffee beans from all
-              over the world.
+              Red Bucket Coffee sells the highest quality coffee beans sourced
+              from all over the world.
             </Typography>
           </Grid>
         </Grid>
