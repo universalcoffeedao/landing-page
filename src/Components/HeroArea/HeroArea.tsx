@@ -5,6 +5,8 @@ import polygonImage from "../../assets/poweredByPolygon.png";
 
 import backgroundVideo from "./backgroundVid.mp4";
 
+import Fade from "react-reveal/Fade";
+
 const HeroArea: React.FC = () => {
   return (
     <div className={styles.outerDiv}>
@@ -16,18 +18,20 @@ const HeroArea: React.FC = () => {
           <Grid container spacing={1} className={styles.heroArea_content}>
             <Grid item md={6} sm={12} xs={12}>
               <div className={styles.heroArea_info}>
-                <Typography variant="h5" color="inherit">
-                  Blockchain-Based Universal Coffee Rewards Program
-                </Typography>
-                <Typography variant="h6" color="inherit">
-                  Universal Coffee Coin (UCC) is the reward point for all the
-                  small businesses in the world.
-                </Typography>
-                <img
-                  src={polygonImage}
-                  alt="Powered by Polygon"
-                  style={{ marginLeft: "-9px" }}
-                />
+                <Fade>
+                  <Typography variant="h5" color="inherit">
+                    Blockchain-Based Universal Coffee Rewards Program
+                  </Typography>
+                  <Typography variant="h6" color="inherit">
+                    Universal Coffee Coin (UCC) is the reward point for all the
+                    small businesses in the world.
+                  </Typography>
+                  <img
+                    src={polygonImage}
+                    alt="Powered by Polygon"
+                    style={{ marginLeft: "-9px" }}
+                  />
+                </Fade>
               </div>
               <a
                 target="_blank"
@@ -43,15 +47,17 @@ const HeroArea: React.FC = () => {
                 >
                   Enter App
                 </Button> */}
-                <Button
-                  variant="contained"
-                  color="primary"
-                  className={styles.heroArea_rightButton}
-                  href="https://discord.gg/7D22JUbqPW"
-                  target="_blank"
-                >
-                  Join Our Discord
-                </Button>
+                <Fade>
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    className={styles.heroArea_rightButton}
+                    href="https://discord.gg/7D22JUbqPW"
+                    target="_blank"
+                  >
+                    Join Our Discord
+                  </Button>
+                </Fade>
               </a>
             </Grid>
             {/* <Grid

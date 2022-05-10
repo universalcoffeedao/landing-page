@@ -4,11 +4,13 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
+import { Element } from "react-scroll";
+
 import roadmap from "./roadmap.png";
 
 const Store: React.FC = () => {
   return (
-    <div className={styles.store_wrapper}>
+    <div className={styles.store_wrapper} id="roadmap">
       <Grid container className={styles.store_content}>
         <Grid
           item
@@ -25,7 +27,6 @@ const Store: React.FC = () => {
               width: "100vw",
               maxWidth: "800px",
             }}
-            id="roadmap"
           />
         </Grid>
       </Grid>

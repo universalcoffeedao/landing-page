@@ -13,6 +13,8 @@ import {
 import whitePaper from "../../../assets/whitePaper.pdf";
 import roadmap from "../../../assets/roadmap.pdf";
 
+import { Link } from "react-scroll";
+
 // import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
@@ -107,15 +109,15 @@ const Footer: React.FC = () => {
                     >
                       Whitepaper
                     </a>
-                    <a
-                      href="#roadmap"
-                      onClick={() => {
-                        window.location.replace("/#roadmap");
-                      }}
-                      className={styles.text}
+                    <Link
+                      to="roadmap"
+                      smooth={true}
+                      style={{ marginLeft: "-0.6rem", marginRight: "-0.6rem" }}
                     >
-                      Roadmap
-                    </a>
+                      <a href="" className={styles.text}>
+                        Roadmap
+                      </a>
+                    </Link>
                     <a href="https://docs.universalcoffee.xyz/" target="_blank">
                       FAQs
                     </a>
