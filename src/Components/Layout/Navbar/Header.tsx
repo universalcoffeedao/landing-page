@@ -9,6 +9,8 @@ import { FaDiscord, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
+import { Link } from "react-scroll";
+
 const Header: React.FC = () => {
   const matches = useMediaQuery("(min-width:900px)");
 
@@ -62,14 +64,10 @@ const Header: React.FC = () => {
                         <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
                         </a>
-                        <a
-                          href="#roadmap"
-                          onClick={() => {
-                            window.location.replace("/#roadmap");
-                          }}
-                        >
-                          Roadmap
-                        </a>
+                        <Link to="roadmap" smooth={true}>
+                          <a href="">Roadmap</a>
+                        </Link>
+
                         <a
                           href="#team"
                           onClick={() => {

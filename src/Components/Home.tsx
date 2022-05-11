@@ -24,10 +24,10 @@ const Home: React.FC = () => {
           <Partners />
         </section>
         <section>
-          <SmallBusiness />
+          <Introducing />
         </section>
         <section>
-          <Introducing />
+          <SmallBusiness />
         </section>
 
         <section>
