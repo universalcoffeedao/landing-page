@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 const HeroArea: React.FC = () => {
   return (
     <div className={styles.outerDiv}>
-      <video autoPlay loop muted>
+      <video autoPlay muted>
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <div className={styles.heroArea_wrapper}>

@@ -43,57 +43,10 @@ video {
     @media screen and (max-width: 599px) {
       padding-top: 5.5rem;
     }
-    .heroArea_button {
-      width: 300px;
-      margin-bottom: 2.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 76px;
-      background-color: #fff;
-      padding: 15px;
-      opacity: 1;
-      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-      transform-style: preserve-3d;
-      cursor: pointer;
-      h6 {
-        color: #df362d;
-        font-size: 1.7rem;
-        line-height: 1.1;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        @media screen and (max-width: 599px) {
-          font-size: 1.5rem;
-        }
-      }
 
-      span {
-        padding: 0.1rem 0.6rem;
-        text-decoration: none;
-        font-size: 0.875rem;
-        border-radius: 8rem;
-        background-color: #ffc768;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-        color: #000;
-        font-weight: 600;
-        margin-right: 0.5rem;
-      }
-      p {
-        color: #607286;
-        margin-right: 0.5rem;
-        font-size: 20px;
-        margin-left: 6px;
-      }
-      img {
-        width: 24px;
-        height: 24px;
-        margin-left: 10px;
-      }
-    }
     .heroArea_info {
       h5 {
-        margin: 0 0 1rem;
+        margin: 0 -0.15rem 1rem;
         font-size: 3rem;
         line-height: 1.15;
         font-weight: 600;
@@ -104,12 +57,19 @@ video {
         }
       }
       h6 {
+        margin: 0 0 1rem;
+
         font-size: 1.5rem;
         margin-bottom: 1rem;
         font-family: "Red Hat Text", sans-serif;
         line-height: 1.7;
         font-weight: 400;
         color: #000000;
+
+        @media screen and (max-width: 599px) {
+          font-size: 1.3rem;
+          line-height: 1.4;
+        }
       }
     }
 

@@ -8,6 +8,8 @@ import { Element } from "react-scroll";
 
 import roadmap from "./roadmap.png";
 
+import Fade from "react-reveal/Fade";
+
 const Store: React.FC = () => {
   return (
     <div className={styles.store_wrapper} id="roadmap">
@@ -20,14 +22,16 @@ const Store: React.FC = () => {
           xs={12}
           className={styles.store_left_content}
         >
-          <img
-            src={roadmap}
-            alt="roadmap"
-            style={{
-              width: "100vw",
-              maxWidth: "800px",
-            }}
-          />
+          <Fade left>
+            <img
+              src={roadmap}
+              alt="roadmap"
+              style={{
+                width: "100vw",
+                maxWidth: "800px",
+              }}
+            />
+          </Fade>
         </Grid>
       </Grid>
     </div>
