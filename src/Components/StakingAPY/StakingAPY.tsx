@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
 import { Typography, Button } from "@mui/material";
 
-import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
 
 const StakingAPY: React.FC = () => {
   return (
@@ -21,7 +21,7 @@ const StakingAPY: React.FC = () => {
           justifyContent="center"
           className={styles.secondan_part}
         >
-          <Bounce>
+          <Fade>
             <Typography
               variant="subtitle1"
               color="inherit"
@@ -31,7 +31,7 @@ const StakingAPY: React.FC = () => {
               participate in the DAO governance and centralized enough for the
               founding team to develop the protocol at a fast pace.
             </Typography>
-          </Bounce>
+          </Fade>
         </Grid>
       </Container>
     </div>

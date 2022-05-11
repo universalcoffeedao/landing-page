@@ -2,7 +2,6 @@ import { Container, Grid, Typography, Button } from "@mui/material";
 import React from "react";
 import styles from "./Team.module.scss";
 
-import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 
 const Team: React.FC = () => {
@@ -18,7 +17,7 @@ const Team: React.FC = () => {
             order={{ lg: 1, md: 1, sm: 1, xs: 2 }}
             className={styles.introduc_left_side}
           >
-            <Bounce>
+            <Fade>
               <Typography
                 variant="h6"
                 color="inherit"
@@ -51,7 +50,7 @@ const Team: React.FC = () => {
                   Meet Eric 1-on-1
                 </Button>
               </a>
-            </Bounce>
+            </Fade>
           </Grid>
           <Grid
             item
