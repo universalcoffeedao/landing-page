@@ -65,7 +65,15 @@ const Header: React.FC = () => {
                           Whitepaper
                         </a>
                         <Link to="roadmap" smooth={true}>
-                          <a href="">Roadmap</a>
+                          <a
+                            href=""
+                            style={{
+                              marginLeft: "-0.95rem",
+                              marginRight: "-0.95rem",
+                            }}
+                          >
+                            Roadmap
+                          </a>
                         </Link>
 
                         <a
