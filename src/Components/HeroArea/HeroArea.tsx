@@ -47,10 +47,10 @@ const HeroArea: React.FC = () => {
                   variant="contained"
                   color="primary"
                   className={styles.heroArea_rightButton}
-                  href="https://discord.gg/7D22JUbqPW"
+                  href="http://app.universalcoffee.xyz/"
                   target="_blank"
                 >
-                  Join Our Discord
+                  Enter App
                 </Button>
               </a>
             </Grid>
