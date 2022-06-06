@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import { IconButton } from "@mui/material";
 // import { Link } from "react-router-dom";
-import { FaDiscord, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
 
 import whitePaper from "../../../assets/whitePaper.pdf";
 import roadmap from "../../../assets/roadmap.pdf";
@@ -173,20 +173,6 @@ export default function MenuDrawer() {
                     target="_blank"
                   >
                     <FaTwitter />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/7D22JUbqPW"
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                      fontSize: "30px",
-                      padding: "0 10px",
-                    }}
-                    target="_blank"
-                  >
-                    <FaDiscord />
                   </a>
                 </li>
                 <li>
